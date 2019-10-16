@@ -1,0 +1,185 @@
+/* General Section */
+
+html, body {
+    background-color: #DDE8E8; 
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #41464b;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*====================================================================
+                        NAV BAR
+===================================================================*/
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,0);
+}
+
+.navbar-brand {
+    font-size: 34px;
+}
+
+#navbarNav {
+    font-size: 18px;
+}
+
+
+
+/*====================================================================
+                        CONTENT (Generic)
+===================================================================*/
+
+.content-box {
+    padding: 60px 0 60px 0;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.content-title-underline {
+    width: 100px;
+    height: 3px;
+    background-color: #060541;
+    margin: 0 auto 30px auto;
+}
+
+/*====================================================================
+            Diagonal Line and Profile Picture Setting
+===================================================================*/
+
+.the-col {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.all-users {
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.user-image {
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-60deg, #CAC9D9 50%, #fff 50%);
+    min-height: 200px;
+    padding-top: 50px;
+}
+
+.user-image-box-1 {
+    height: 140px;
+    width: 140px;
+    background-image: url(../img/Ellipse%201.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user-image-box-2 {
+    height: 140px;
+    width: 140px;
+    background-image: url(../img/Ellipse%202.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.user-image-box-3 {
+    height: 140px;
+    width: 140px;
+    background-image: url(../img/Ellipse%203.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.content-part {
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+
+.user-content {
+    padding: 0 0 30px 0;
+}
+
+.user-button {
+    padding: 0 0 30px 0;
+}
+
+.contact-btn {
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+    background: #060541;
+}
+
+.contact-btn:hover {
+    background: rgba(6, 5, 65, 0.83);
+}
+
+.content-footer {
+    text-align: center;
+    background: rgba(199, 195, 195, 0.1);
+    height: 50px;
+}
+
+.social-icons {
+    padding: 10px 20px;
+}
+
+/*====================================================================
+                    Social Icons styles
+===================================================================*/
+
+.fa-twitter-square {
+    color: #50ABF1;
+}
+
+.fa-linkedin {
+    color: #0D5C77;
+}
+
+.fa-google-plus-square {
+    color: #DD4B39;
+}
+
+.content-footer a {
+    color: #060541;
+}
